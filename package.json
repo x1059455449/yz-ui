@@ -1,0 +1,9 @@
+{
+  "name": "yz",
+  "version": "0.0.1",
+  "description": "Vue Ui 组件库",
+  "main": "index.js",
+  "repository": "git@github.com:381924237/yz-ui.git",
+  "author": "xzy",
+  "license": "MIT"
+}
