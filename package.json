@@ -2,11 +2,25 @@
   "name": "yz",
   "version": "0.0.1",
   "description": "Vue Ui 组件库",
+  "private": true,
   "main": "index.js",
   "repository": "git@github.com:381924237/yz-ui.git",
   "author": "xzy",
   "license": "MIT",
+  "scripts": {
+    "dev": "./node_modules/.bin/parcel index.html --no-cache"
+  },
   "dependencies": {
-    "vue": "^2.6.9"
+    "vue": "^2.6.9",
+    "vue-hot-reload-api": "^2.3.3"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.6.0",
+    "parcel-bundler": "^1.12.2",
+    "sass": "^1.17.2",
+    "vue-template-compiler": "^2.6.9"
+  },
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.common.js"
   }
 }
