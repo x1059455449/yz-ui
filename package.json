@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "git@github.com:381924237/yz-ui.git",
   "author": "xzy",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.6.9"
+  }
 }
