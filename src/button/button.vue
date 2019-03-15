@@ -1,9 +1,7 @@
 <!--  -->
 <template>
   <button class="y-button" :class="{[position]: true}">
-    <svg class="icon" v-if="icon">  
-      <use :xlink:href="`#icon-${icon}`">
-    </svg>
+    <y-icon v-if="icon" :name="icon" class="icon"></y-icon>
     <div class="content">
       <slot></slot>
     </div>
@@ -46,8 +44,6 @@ export default {
     align-items: center;
     vertical-align: middle;
     > .icon {     
-      height: 1em;
-      width: 1em;
       order: 1;
       margin-right: .1em;
     } 
