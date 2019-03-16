@@ -51,6 +51,7 @@ export default {
       this.deltaY = clientY - y 
 
       this.isActive = !this.isAction
+      this.$emit('click')
     }
   }
 }
