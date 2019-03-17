@@ -2,7 +2,7 @@
   "name": "yz-ui-test",
   "version": "0.0.1",
   "description": "这是一个Vue Ui 组件库",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "git@github.com:381924237/yz-ui.git",
   "author": "xzy",
   "license": "MIT",
