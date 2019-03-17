@@ -16,11 +16,11 @@ describe('Button', () => {
     const Constructor = Vue.extend(Button)
     const vm = new Constructor({
       propsData: {
-        icon: 'setting'
+        icon: 'like'
       }
     }).$mount()
     const useElement = vm.$el.querySelector('use')
-    expect(useElement.getAttribute('xlink:href')).to.equal('#icon-setting')
+    expect(useElement.getAttribute('xlink:href')).to.equal('#icon-like')
     vm.$destroy()
   })
 
