@@ -15,7 +15,9 @@
 </template>
 
 <script>
-export default {
+import Icon from '../icon/icon'
+
+export default {  
   data () {
     return {
       isLoading: false,
@@ -38,6 +40,9 @@ export default {
         return value === 'left' || value === 'right'
       }
     }
+  },
+  components: {
+    'y-icon': Icon
   },
   methods: {
     onClick(event){
